@@ -129,6 +129,44 @@ const invoices = [
   },
 ];
 
+const latestInvoices = [
+  {
+    id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
+    name: 'Evil Rabbit',
+    image_url: '/customers/evil-rabbit.png',
+    email: 'evil@rabbit.com',
+    amount: '15795'
+  },
+  {
+    id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd',
+    name: 'Michael Novotny',
+    image_url: '/customers/michael-novotny.png',
+    email: 'evil@rabbit.com',
+    amount: '8587'
+  },
+  {
+    id: 'd6e15727-9fe1-496-ea44a9bd81aa',
+    name: 'Dennis Rabies',
+    image_url: '/customers/delba-de-oliveira.png',
+    email: 'evil@rabbit.com',
+    amount: '887'
+  },
+  {
+    id: 'd6e15727-9fc5b-ea44a9bd81aa',
+    name: 'Tom orochi',
+    image_url: '/customers/lee-robinson.png',
+    email: 'evil@rabbit.com',
+    amount: '555'
+  },
+  {
+    id: 'd6e15727-91-8c5b-ea44a9bd81aa',
+    name: 'Satoru Gojo',
+    image_url: '/customers/amy-burns.png',
+    email: 'evil@rabbit.com',
+    amount: '123'
+  },
+]
+
 const revenue = [
   { month: 'Jan', revenue: 2000 },
   { month: 'Feb', revenue: 1800 },
@@ -144,4 +182,4 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export { users, customers, invoices, revenue };
+export { users, customers, invoices, latestInvoices, revenue };
